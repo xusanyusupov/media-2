@@ -1,0 +1,47 @@
+#header{
+    width: 100%;
+    display: flex;
+    background: $bck-main-color;
+    position: sticky;
+    top: 0;
+    .header{
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__first{
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                a{
+                    color: #fff;
+                    text-underline-offset: 8px; 
+                    &:hover{
+                        text-decoration: underline; 
+                    }
+                }
+                i{
+                    font-size: 35px;
+                    color: red;
+                    font-weight: 700;
+                }
+            }
+        }
+        &__second{
+            ul{
+                a{
+                    color: #fff;
+                    text-underline-offset: 8px; 
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                display: flex;
+                align-items: center;
+                gap: 30px;
+            }
+        }
+    }
+}
+

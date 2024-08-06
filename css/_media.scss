@@ -1,0 +1,260 @@
+// PLANSHETLAR UCHUN  START //
+@media (max-width: 1024px){
+    #header{
+       max-width: 100%;
+    }
+    #main{
+        .hero{
+            padding-top: 50px;
+            max-width: 100%;
+            .text__align{
+                h1{
+                    color: $btn-main-color;
+                }
+                p{
+                    color: $btn-main-color;
+                }
+            }
+        }
+        #user__card{
+            max-width: 100%;
+            .container{
+                .user__card-wrapper{
+                    max-width: 100%;
+                    grid-template-columns: repeat(2, 1fr);
+                    .card{
+                        height: auto;
+                    }
+                    .card .one{
+                            width: 100%;
+                    }
+                    &__img img{
+                        width: 50%;
+                        height: 100px;
+                    }
+                }
+            }
+     
+       }
+
+    }
+
+}
+@media (max-width: 950px){  
+    #header{
+        max-width: 100%;
+    }
+    .hero{
+        margin-top: 80px;
+    }
+
+}
+@media (max-width: 850px){
+    #header{
+        max-width: 100%;
+    }
+    #main{
+        .hero{
+            margin-top: 70px;
+                .container{
+                .text__align{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 800px){
+    #header{
+        max-width: 100%;
+        .header{
+            &__second{
+                .header__scd.none{
+                    display: none;
+                }
+            }
+        }
+    }
+    #main{
+        .hero{
+            .container{
+                .text__align{
+                    line-height:  50px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 750px){
+    #header{
+        max-width: 100%;
+        .header{
+            &__second{
+                .header__scd.none{
+                    display: none;
+                }
+            }
+        }
+    }
+    #main{
+        .hero{
+            &__img{
+                width: 100%;
+                height: 100%;
+            }
+            &__img img{
+                width: 100%;
+                height: 400px;
+            }
+        }
+    }
+}
+@media (max-width: 700px){
+    #header{
+        max-width: 100%;
+        .header{
+            &__second{
+                &__scd.none{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+// TELEFONLAR UCHUN
+@media (max-width: 650px){
+    #header{
+        max-width: 100%;
+        .header{
+            display: flex; 
+            &__first{
+                display: flex;
+                li{
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    .fa-bars{
+                        color: #fff;
+                        font-size: 25px;
+                        padding: 10px;
+                        transition: 1s;
+                        &:hover{
+                            transform: scale(1.2);
+                            transform: rotate(-90deg);
+                        }
+                    }
+                }
+                i{
+                    font-size: 35px;
+                    color: red;
+                    font-weight: 700;
+                }
+                .header__first-none{
+                    display: none;
+                }
+                .fa-bars{
+                    display: block; 
+                }
+            }
+            &__second{
+                &__scd.none{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .header__scd{
+        display: none;
+    
+    }
+    .btn.head{
+        width: 120px;
+    }
+    #user__card{
+        .container{
+            .user__card-wrapper{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                .card{
+                    width: 80%;
+                }
+            }
+        }
+    }
+    #main__card{
+        .container{
+          .card__mn{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            .card__mn-text{
+                .noneP{
+                    display: none;
+                }
+            }
+          }
+        }
+    }
+}
+
+@media (max-width:450px) {
+    #main__card{
+        display: none;
+    }
+    .learn{
+        display: block;
+    }
+    footer{
+        .container{
+            .footer__wrap{
+                strong{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width:460px) {
+    #main__card{
+        display: none;
+    }
+    .learn{
+        display: block;
+    }
+    footer{
+        .container{
+            .footer__wrap{
+                strong{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width:400px) {
+    .btn.head{
+        width: 100px;
+        margin-left: -50px;
+    }
+    #main__card{
+        display: none;
+    }
+    .learn{
+        display: block;
+    }
+    footer{
+        .container{
+            .footer__wrap{
+                strong{
+                    display: none;
+                }
+            }
+        }
+    }
+}

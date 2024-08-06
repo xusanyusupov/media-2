@@ -1,0 +1,29 @@
+footer{
+    background-color: $bck-main-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    .footer__wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        strong{
+            color: #ffff;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            border: 1px solid #ffff;
+            border-radius: 10px;
+            padding: 5px 10px;
+            &:hover{
+                filter: invert(1) brightness(0);
+            }
+        }
+        img{
+            width: 50px;
+        }
+    }
+}
